@@ -1,0 +1,800 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif; 
+    position: relative; 
+    box-sizing: border-box;
+}  
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Nav panel
+----------------------- */
+
+.nav-panel {
+    background-color: #000000; 
+    padding-bottom: 30px; 
+    width: 1400px;
+    font-size: 0; 
+    position: fixed;
+}
+
+.nav-panel__list {
+    display: inline-block;
+}
+
+.nav-panel__logo {
+    padding-top: 21px;
+    width: 79px;
+    margin-right: 560px;    
+}
+
+.nav-panel__link {
+    margin-left: 46px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #C9C9C9;    
+}
+ 
+/* Header
+----------------------------------*/
+
+.header {
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/header_background.png) no-repeat center center;
+    background-size: cover;
+    font-size: 0;  
+    margin: 0 auto;
+}
+
+.header__box {
+    display: inline-block; 
+} 
+
+/* Header text
+----------------------------- */
+
+.header__text{
+    padding: 180px 0 140px;
+    text-align: left;  
+}
+
+.header__logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;  
+}
+
+.logo__white {
+    font-weight: 700;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+}
+
+.logo__orange {
+    font-weight: 400;
+    text-transform: uppercase; 
+    color: #FF8B38;
+}
+
+.header__title {
+    margin-top: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 520px; 
+}
+
+.header__line {
+    width: 64px;
+    height: 2px;
+    margin: 36px 0 0 0;
+    border: none;
+    background: #FFFFFF; 
+    text-align: left;
+}
+
+.header__subtitle {
+    margin: 30px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #86878B;
+    width: 461px;
+}
+
+.header__button {
+    padding: 15px 32px;
+    margin-top: 44px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;  
+}
+
+/* Header singup
+-------------------------- */
+
+.header__singup__form {
+    margin-top: 140px;
+    margin-left: 240px;
+    width: 360px;       
+    border: none;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.header__singup__title {
+    padding: 18px 32px;
+    margin-top: 44px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F5F5F5;
+    border-radius: 4px 4px 0 0; 
+    text-align: center; 
+}
+
+.trial__black_text {
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.trial__orange_text {
+    text-transform: uppercase;
+    color: #FF8B38;
+}
+
+.form_row {
+    margin-left: 38px;
+}
+
+.form-row-name {
+    padding-top: 46px;
+    width: 285px;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;    
+}
+
+.form-row-email {
+    padding-top: 46px;
+    width: 285px;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.form-row-password {
+    padding-top: 60px;
+    width: 285px;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.header__singup__button {
+    width: 100%;
+    height: 54px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFE8DC; 
+    background: transparent;
+    background-color: #FF8B38; 
+    border-style: none;
+    border-radius: 0 0 4px 4px; 
+}
+
+/* Social Media 
+--------------------------------- */
+
+.social-media {
+    background-color: #FFFFFF;
+    font-size: 0;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.sm__box {
+    display: inline-block;    
+}
+
+.social-media__text {
+    padding: 23px 0 22px;
+    width: 370px;
+}
+
+.social-media__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.social-media__subtitle {
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.social-media__icon {
+    margin-bottom: 30px;
+    margin-left: 87px;
+    width: 634px;
+}
+
+/* Features
+--------------------------------- */
+
+.features {
+    background-color: #F5F5F5;
+    font-size: 0; 
+}
+
+.features__box {
+    display: inline-block;
+}
+
+/* Features tabs
+---------------------------- */
+
+.features__tabs {
+    padding-top: 148px;
+}
+
+.features__tabs-orange {
+    display: block;
+    width: 112px;
+    height: 112px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF8B38; 
+    border: none;
+    border: 1px solid #FFFFFF;   
+    border-radius: 4px 4px 0 0;
+}
+
+.features__tabs-black {
+    display: block;
+    width: 112px;
+    height: 112px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Features text
+------------------------ */
+
+.features__text {
+    padding: 156px 103px 0 100px;  
+}
+
+.features__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.features__subtitle {
+    width: 480px;
+    margin-top: 52px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.features__subtitle__paragraph{
+    padding-top: 20px;
+    width: 476px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.features__button {
+    padding: 16px 25px;
+    margin-top: 51px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background:transparent;
+    background-color: #FF8B38;
+    border-radius: 2px;
+    border: 1px solid #FFFFFF;   
+}
+
+.features__image {
+    padding-bottom: 170px;
+}
+  
+/* Advantage section title
+----------------------------------- */
+
+.advantage__title {
+    padding-top: 107px;
+    text-align: center;
+}
+
+.advantage__title__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantage__title__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FF8B38;   
+}
+
+.advantage__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Advantage section blocks
+----------------------------------- */
+
+.advantage__blocks {
+    padding: 80px 0 107px;
+    font-size: 0;
+    text-align: center;
+}
+
+.advantage__box {
+    display: inline-block;
+    width: 350px;
+    margin: 0 11px;
+}
+
+.advantage__icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.advantage__text {
+    margin:29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.advantage__icon-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+/* Pricing section 
+-------------------------------- */
+
+.pricing {
+    background-color: #F5F5F5;
+    font-size: 0; 
+}
+
+/* Pricing title
+-------------------------------- */
+
+.pricing__title {
+    padding-top: 109px;
+    text-align: center;
+}
+
+.pricing__title__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.pricing__title__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FF8B38; 
+}
+
+.pricing__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Pricing box
+-------------------------------- */
+
+.pricing__box {
+    text-align: center;
+}
+
+.basic {
+    display: inline-block;
+    margin: 115px 43px 96px 0;
+    width: 343px;
+}
+
+.professional {
+    display: inline-block;
+    padding-top: 80px;
+    margin-right: 43px;
+    width: 343px;
+}
+
+.enterprise {
+    display: inline-block;
+    margin-top: 115px;
+    width: 343px;
+}
+
+.pricing__type {
+    padding: 21px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F5F5F5;
+    background-color:#333333; 
+}
+
+.pricing__cost {
+    margin: 1px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background:#333333;  
+}
+
+.cost {
+    font-size: 36px;
+}
+
+.pricing__duration {
+    padding: 17px 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #999999;
+    background: #333333;
+}
+
+.pricing__cost__line {
+    height: 5px;
+    border: none;
+    background: #FF8B38; 
+}
+
+.pricing__cost__slot {
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF8B38;
+}
+
+.pricing__list {
+    padding: 14px 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/* Customers section 
+-------------------------------- */
+
+.customers {
+    background-color: #FFFFFF;
+    font-size: 0; 
+}
+
+/* Customers title
+-------------------------------- */
+
+.customers__title {
+    padding-top: 109px;
+    text-align: center;
+}
+
+.customers__title__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.customers__title__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FF8B38; 
+}
+
+.customers__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Customers box
+-------------------------------- */
+
+.customers__box {
+    display: inline-block;
+    padding-top: 55px;
+    padding-bottom: 101px; 
+}
+
+.jeremy {
+    margin: 0 71px 0 0;
+}
+.john {
+    margin: 0 71px;
+}
+
+.susan {
+    margin: 0 0 0 71px;
+}
+
+.customers__box__text {
+    background-color: #F5F5F5;
+    border-radius: 4px; 
+}
+
+.customers__text {
+    padding: 24px 13px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    font-style: italic;
+}
+
+.customer__avatar__image {
+    padding-top: 25px;
+}
+
+.customers__avatar__info {
+    display: inline-block; 
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.customers__avatar__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.customers__avatar__text {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Download section
+---------------------------------- */
+
+.download { 
+    padding: 76px 0 63px;
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/download_background.png) no-repeat center center; 
+    background-size: cover;
+}
+
+.download__box {
+    text-align: center;
+}
+
+.download__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.download__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FFFFFF; 
+}
+
+.download__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #BDC3C2;  
+}
+
+.download__button {
+    padding: 15px 32px;
+    margin-top: 33px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;   
+}
+
+/* Contact section
+----------------------------- */
+
+.contact {
+    background-color: #FFFFFF;
+    font-size: 0; 
+    text-align: center;
+}
+
+/* Contact title
+----------------------------- */
+
+.contact__title {
+    padding-top: 109px;
+    text-align: center;
+}
+
+.contact__title__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.contact__title__line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #FF8B38; 
+}
+
+.contact__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* Contact form
+----------------------------- */
+
+.contact__box {
+    display: inline-block;
+}
+
+.contact__form {
+    margin-top: 91px;
+    margin-bottom: 43px;
+}
+
+.contact__form_row {
+    display: block;
+    width: 527px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;  
+}
+
+.contact__form-email {
+    padding-top: 30px;
+    display: block;
+    width: 527px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.contact__form-subject {
+    padding-top: 30px;
+    display: block;
+    width: 527px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.contact__form-message {
+    
+    width: 527px;
+    padding-bottom: 87px;
+    margin-left: 57px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 2px solid #dbdbdb; 
+}
+
+.contact__button {
+    padding: 15px 22px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFE6D3;
+    background:transparent;
+    background-color: #FF8B38;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF; 
+}
+
+/* Footer
+----------------------------- */
+
+.footer-section {
+    background-color: #000000;
+    padding: 39px 0 15px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 19px;
+    list-style-type: none;
+}
+
+.axure-text {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #676767;  
+}
